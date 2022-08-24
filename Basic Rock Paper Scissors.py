@@ -39,7 +39,7 @@ while UserChoice == False:
     elif ComputerChoice == "Scissors" and UserChoice in ["Paper", "paper"]:
         print("You lose! Scissors cuts Paper")
     else:
-        print("Input invalid, make sure to either capitalize only the first lever or use full lowercase")
+        print("Input invalid, make sure to either capitalize only the first letter or use full lowercase")
     
     #Both variables get set back to their original setting to continue the while loop
     
